@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '10.0'
+
+target 'test-circleci' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for test-circleci
+  pod 'SwiftLint', '0.24.0'
+
+  target 'test-circleciTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'test-circleciUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

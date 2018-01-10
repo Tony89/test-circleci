@@ -1,0 +1,12 @@
+git_url "https://github.com/Sirius-FX/certificates.git"
+git_branch "Sirius"
+type "appstore" # The default type, can be: appstore, adhoc, enterprise or development
+
+app_identifier ["vn.lifetimetech.test-circleci"]
+username "thanhhh@lifetimetech.vn" # Your Apple Developer Portal username
+
+team_id "1990621"
+team_name "Thanh Ho"
+
+# For all available options run `fastlane match --help`
+# Remove the # in the beginning of the line to enable the other options

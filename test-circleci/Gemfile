@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+ruby "~> 2.3.0"
+gem 'cocoapods'
+gem 'fastlane'
+gem 'checkstyle_filter-git'
+gem 'saddler'
+gem 'saddler-reporter-github'
+gem 'swiftlint_translate_checkstyle_format'
